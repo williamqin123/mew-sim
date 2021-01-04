@@ -122,6 +122,20 @@ small {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .bigger-text-if-big-window {
+        font-size: 115%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .bigger-text-if-big-window {
+        font-size: 120%;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .bigger-text-if-big-window {
         font-size: 125%;
     }
 }
